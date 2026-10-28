@@ -27,6 +27,7 @@ three_days_later = str(today + timedelta(days=3))
 next_week = str(today + timedelta(weeks=1))
 is_hide_menu = False
 
+# 디데이는 이 코드를 바꾸면 쓸 수 있습니다!!!!
 target_date = date(2026, 12, 6)
 d_day = (target_date - today).days
 
